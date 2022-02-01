@@ -1,0 +1,20 @@
+1) creo progetto
+2) apro visual click destro 'apri nel terminale'
+3) npm init (crea il json e aggiunge i node_modules di typescript)
+4) nel terminale npm install --save-dev typescript
+5) creo file .ts
+6) poi tsc --init
+7) poi per creare file js 'npm nomefile.ts'
+
+si possono creare più file js per ogni file ts 
+ma si può anche mettere tutto in un unico file con dicitura 
+tsc file1.ts file2.ts --outFile file (creerà file.js)
+
+per far compilare automaticamente ad ogni salvataggio
+tsc -w [nomefile.ts]
+
+
+
+prova anche con  npm install @types/node --save-dev
+se vuoi incorporare jquery nel tsc 
+npm i --save-dev @types/jquery
